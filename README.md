@@ -21,7 +21,7 @@ Product and pricing teams need to know which specifications actually separate a 
 - `test.csv`: 1,000 phones without a price range, used only at the end to generate predictions.
 - No missing values and no duplicates, but some implausible values (for example 180 phones with a screen width of 0 cm).
 
-The data files are not included in this repository. Download them from Kaggle and place them in the `data/` folder.
+The dataset is not included in this repository. Download it from Kaggle and create a data/ folder containing train.csv and test.csv.
 
 | Feature group | Columns |
 |---|---|
@@ -60,7 +60,7 @@ The data files are not included in this repository. Download them from Kaggle an
 
 ```
 .
-├── notebooks/
+├── notebook/
 │   └── MobilePrice-EDA-Prediction.ipynb
 ├── data/                  # train.csv and test.csv (download from Kaggle)
 ├── requirements.txt
@@ -77,7 +77,7 @@ Data cleaning and validation · exploratory data analysis · data visualization 
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 pip install -r requirements.txt
-jupyter notebook notebooks/MobilePrice-EDA-Prediction.ipynb
+jupyter notebook notebook/MobilePrice-EDA-Prediction.ipynb
 ```
 
 Make sure `train.csv` and `test.csv` are in the `data/` folder before running the notebook.
