@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+kaleido
+scikit-learn
+nbformat
+ipykernel
+jupyter notebook
